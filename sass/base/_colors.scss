@@ -1,0 +1,14 @@
+$clr-black: #121212;
+$clr-dark-blue: #19202d;
+$clr-white: #ffffff;
+$clr-grey-100: #e7eaee;
+$clr-grey-200: #cfcfcf;
+$clr-grey-400: #676d7e;
+$clr-grey-500: #48556a;
+$clr-purple-50: #ede4ff;
+$clr-purple-300: #a775f1;
+$clr-purple-500: #733fc8;
+
+@mixin testimonial-box-shadow {
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.24);
+}

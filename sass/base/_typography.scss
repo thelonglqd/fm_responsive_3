@@ -1,0 +1,38 @@
+$font-family-base: Barlow, sans-serif;
+
+$font-sizes: (
+  'sm': 0.6875rem,
+  'base': 0.8125rem,
+  'lg': 1.25rem,
+);
+
+$line-heights: (
+  'sm': 1.1,
+  'base': 1.2,
+  'lg': 1.4,
+);
+
+@mixin text-preset-1 {
+  font-size: map-get($font-sizes, 'lg');
+  line-height: map-get($line-heights, 'base');
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+
+@mixin text-preset-2 {
+  font-size: map-get($font-sizes, 'base');
+  line-height: map-get($line-heights, 'sm');
+  letter-spacing: 0px;
+}
+
+@mixin text-preset-3 {
+  font-size: map-get($font-sizes, 'base');
+  line-height: map-get($line-heights, 'lg');
+  letter-spacing: 0px;
+}
+
+@mixin text-preset-4 {
+  font-size: map-get($font-sizes, 'sm');
+  line-height: map-get($line-heights, 'sm');
+  letter-spacing: 0px;
+}
