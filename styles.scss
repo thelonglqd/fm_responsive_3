@@ -9,26 +9,33 @@
   --clr-black: #121212;
   --clr-dark-blue: #19202d;
   --clr-white: #ffffff;
+
   --clr-grey-100: #e7eaee;
   --clr-grey-200: #cfcfcf;
   --clr-grey-400: #676d7e;
   --clr-grey-500: #48556a;
+
   --clr-purple-50: #ede4ff;
   --clr-purple-300: #a775f1;
   --clr-purple-500: #733fc8;
+
   /* Typography */
   --text-preset-1-size: 1.25rem;
   --text-preset-1-lh: 1.2;
   --text-preset-1-ls: 0px;
+
   --text-preset-2-size: 0.8125rem;
   --text-preset-2-lh: 1.1;
   --text-preset-2-ls: 0px;
+
   --text-preset-3-size: 0.8125rem;
   --text-preset-3-lh: 1.4;
   --text-preset-3-ls: 0px;
+
   --text-preset-4-size: 0.6875rem;
   --text-preset-4-lh: 1.1;
   --text-preset-4-ls: 0px;
+
   /* Spacings */
   --spacing-500: 2.5rem;
   --spacing-400: 2rem;
@@ -38,12 +45,20 @@
   --spacing-50: 0.25rem;
 }
 
+
+
 body {
   font-family: Barlow, sans-serif;
 }
 
+.testimonial__item {
+}
+
 .testimonial__item--purple {
   background-color: var(--clr-purple-500);
+}
+
+.testimonial__item--purple .user__name {
 }
 
 .testimonial__item--purple .comment__hightlight {
@@ -71,5 +86,3 @@ body {
 .testimonial__item--black {
   background-color: var(--clr-black);
 }
-
-/*# sourceMappingURL=styles.css.map */
